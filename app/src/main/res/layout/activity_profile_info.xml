@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Have you ever lived in or traveled to areas where filariasis is endemic?"
+                android:textSize="16dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/question1_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question1_option_a"
+                    android:layout_width="189dp"
+                    android:layout_height="30dp"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/question1_option_b"
+                    android:layout_width="193dp"
+                    android:layout_height="32dp"
+                    android:text="Not sure" />
+
+                <RadioButton
+                    android:id="@+id/question1_option_c"
+                    android:layout_width="188dp"
+                    android:layout_height="30dp"
+                    android:text="No" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Do you often spend time outdoors,especially during dusk and dawn when mosquitoes are most active?"
+                android:textSize="16dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/question2_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question2_option_a"
+                    android:layout_width="189dp"
+                    android:layout_height="30dp"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/question2_option_b"
+                    android:layout_width="193dp"
+                    android:layout_height="32dp"
+                    android:text="Not sure" />
+
+                <RadioButton
+                    android:id="@+id/question2_option_c"
+                    android:layout_width="188dp"
+                    android:layout_height="30dp"
+                    android:text="No" />
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Have you ever been diagnosed with or experienced swelling in your limbs, particularly the legs or feet?"
+                android:textSize="16dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/question3_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question3_option_a"
+                    android:layout_width="189dp"
+                    android:layout_height="30dp"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/question3_option_b"
+                    android:layout_width="193dp"
+                    android:layout_height="32dp"
+                    android:text="Not Sure" />
+
+                <RadioButton
+                    android:id="@+id/question3_option_c"
+                    android:layout_width="188dp"
+                    android:layout_height="30dp"
+                    android:text="No" />
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Do you use mosquito nets or other protective measures when sleeping in areas where filariasis is prevalent?"
+                android:textSize="16dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/question4_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question4_option_a"
+                    android:layout_width="189dp"
+                    android:layout_height="30dp"
+                    android:text="Always" />
+
+                <RadioButton
+                    android:id="@+id/question4_option_b"
+                    android:layout_width="193dp"
+                    android:layout_height="32dp"
+                    android:text="Sometimes" />
+
+                <RadioButton
+                    android:id="@+id/question4_option_c"
+                    android:layout_width="188dp"
+                    android:layout_height="30dp"
+                    android:text="Never" />
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.Have you noticed persistent fever or flu-like symptoms?"
+                android:textSize="16dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/question5_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question5_option_a"
+                    android:layout_width="189dp"
+                    android:layout_height="30dp"
+                    android:text="Always" />
+
+                <RadioButton
+                    android:id="@+id/question5_option_b"
+                    android:layout_width="308dp"
+                    android:layout_height="32dp"
+                    android:text="Sometimes" />
+
+                <RadioButton
+                    android:id="@+id/question5_option_c"
+                    android:layout_width="188dp"
+                    android:layout_height="30dp"
+                    android:text="Never" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.Have you noticed persistent fever or flu-like symptoms?"
+                android:textSize="16dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/question6_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question6_option_a"
+                    android:layout_width="189dp"
+                    android:layout_height="30dp"
+                    android:text="Always" />
+
+                <RadioButton
+                    android:id="@+id/question6_option_b"
+                    android:layout_width="193dp"
+                    android:layout_height="32dp"
+                    android:text="Sometimes" />
+
+                <RadioButton
+                    android:id="@+id/question6_option_c"
+                    android:layout_width="188dp"
+                    android:layout_height="30dp"
+                    android:text="Never" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.Have you noticed persistent fever or flu-like symptoms?"
+                android:textSize="16dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/question7_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question7_option_a"
+                    android:layout_width="189dp"
+                    android:layout_height="30dp"
+                    android:text="Always" />
+
+                <RadioButton
+                    android:id="@+id/question7_option_c"
+                    android:layout_width="188dp"
+                    android:layout_height="30dp"
+                    android:text="Never" />
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.Have you noticed persistent fever or flu-like symptoms?"
+                android:textSize="16dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/question8_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question8_option_a"
+                    android:layout_width="189dp"
+                    android:layout_height="30dp"
+                    android:text="Always" />
+
+                <RadioButton
+                    android:id="@+id/question7_option_b"
+                    android:layout_width="193dp"
+                    android:layout_height="32dp"
+                    android:text="Sometimes" />
+
+                <RadioButton
+                    android:id="@+id/question8_option_b"
+                    android:layout_width="193dp"
+                    android:layout_height="32dp"
+                    android:text="Sometimes" />
+
+                <RadioButton
+                    android:id="@+id/question8_option_c"
+                    android:layout_width="188dp"
+                    android:layout_height="30dp"
+                    android:text="Never" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9.Have you noticed persistent fever or flu-like symptoms?"
+                android:textSize="16dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/question9_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question9_option_a"
+                    android:layout_width="189dp"
+                    android:layout_height="30dp"
+                    android:text="Always" />
+
+                <RadioButton
+                    android:id="@+id/question9_option_b"
+                    android:layout_width="193dp"
+                    android:layout_height="32dp"
+                    android:text="Sometimes" />
+
+                <RadioButton
+                    android:id="@+id/question9_option_c"
+                    android:layout_width="188dp"
+                    android:layout_height="30dp"
+                    android:text="Never" />
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10.Have you noticed persistent fever or flu-like symptoms?"
+                android:textSize="16dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/question10_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question10_option_a"
+                    android:layout_width="189dp"
+                    android:layout_height="30dp"
+                    android:text="Always" />
+
+                <RadioButton
+                    android:id="@+id/question10_option_b"
+                    android:layout_width="193dp"
+                    android:layout_height="32dp"
+                    android:text="Sometimes" />
+
+                <RadioButton
+                    android:id="@+id/question10_option_c"
+                    android:layout_width="188dp"
+                    android:layout_height="30dp"
+                    android:text="Never" />
+            </RadioGroup>
+            <!-- Repeat similar layout for remaining questions -->
+            <!-- Make sure to adjust IDs and text accordingly -->
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:shadowColor="#00FFFF"
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
